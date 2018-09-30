@@ -1,0 +1,50 @@
+  a {
+    color:skyblue;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size:45px;
+    text-align:center;
+    border-bottom:solid 1px black;
+    margin:0;
+    padding:20px;
+   }
+
+   ul{
+     border-right:1px solid black;
+     width:100px;
+     margin:0;
+
+     padding:25px;
+   }
+
+   body{
+     margin:0;
+   }
+
+   #grid{
+     display:grid;
+     grid-template-columns: 150px 1fr;
+   }
+
+   #iframe{
+     margin:50px;
+   }
+
+   @media(max-width:773px) {
+     #iframe{
+       display: none;
+     }
+
+     ul{
+       border-right:none;
+     }
+   }
+
+   strong{
+     font-size:25px
+   }
+   #active{
+     color:blue;
+   }
